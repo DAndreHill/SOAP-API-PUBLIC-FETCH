@@ -1,0 +1,5 @@
+For this assignment, I created a Python application that connects to a public SOAP web service and retrieves information. I started by reviewing the SOAP example and selecting the Football Pool Information Service from the provided list. I used the Zeep library to connect to the service and retrieve stadium names. I then modified the program to run through Flask using GET and POST endpoints.
+
+One challenge I had was connecting to the first SOAP service I selected. After receiving connection errors, I switched to another service that worked successfully. I also added data validation to make sure users enter a valid stadium name and created custom error messages for incorrect input.
+
+I learned how SOAP services use WSDL files and how Python can convert SOAP responses into usable data. I also have a better understanding of Flask endpoints, input validation, and error handling.
